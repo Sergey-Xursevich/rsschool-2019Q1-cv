@@ -355,6 +355,74 @@ template {
   border-bottom: 1px solid rgba(128, 128, 128, 0.33);
 }
 
+.decription {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.decription__image {
+  margin-top: 20px;
+  margin-right: 70px;
+}
+
+.main {
+  margin-bottom: 200px;
+}
+
+.main__title {
+  font-style: italic;
+}
+
+.text__subtitle {
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+}
+
+.text__title {
+  font-weight: bold;
+}
+
+.developership:before, .education:before, .course:before, .certificate:before, .skills:before, .aditionalInformation:before {
+  content: "";
+  display: block;
+  position: relative;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.33);
+}
+
+.education__place {
+  font-weight: bold;
+}
+
+.course, .skills, .aditionalInformation {
+  padding-top: 20px;
+}
+
+img {
+  height: 255px;
+  width: 205px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.33);
+  border-right: 1px solid rgba(128, 128, 128, 0.33);
+  padding: 10px;
+}
+
+th:last-child, td:last-child {
+  border-right: none;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
