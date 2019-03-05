@@ -341,6 +341,20 @@ template {
   display: none;
 }
 
+.header {
+  padding-top: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  line-height: 1.33;
+}
+
+.container:after {
+  content: "";
+  display: block;
+  position: relative;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.33);
+}
+
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -348,6 +362,9 @@ template {
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.75);
+  line-height: 1.67;
 }
 
 .container {
